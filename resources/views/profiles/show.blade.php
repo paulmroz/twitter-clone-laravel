@@ -6,7 +6,8 @@
             <img src="{{$user->avatar}}" alt=""
                  class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2"
                  width="150"
-                 style="left:50%;"
+                 height="150"
+                 style="left:50%; width: 150px; height: 150px;"
             >
         </div>
 
