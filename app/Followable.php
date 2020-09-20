@@ -18,11 +18,15 @@ trait Followable
     }
 
     public function toggleFollow(User $user){
-        if($this->following($user)){
-            return $this->unfollow($user);
-        }
+//        if($this->following($user)){
+//            return $this->unfollow($user);
+//        }
+//
+//        return $this->follow($user);
 
-        return $this->follow($user);
+        //or
+
+        $this->follows()->toggle($user);
 
     }
 
